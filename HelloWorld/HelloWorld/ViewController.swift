@@ -16,5 +16,15 @@ class ViewController: UIViewController {
     }
 
 
+    @IBOutlet weak var mainLabel: UILabel!
+    
+    @IBAction func getDateTime(_ sender: Any) {
+     let date = Date()
+        let format = DateFormatter()
+        format.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        let formattedDate = format.string(from: date)
+
+        mainLabel.text = formattedDate
+    }
 }
 
