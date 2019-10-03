@@ -31,7 +31,7 @@ class HelloWorldUITests: XCTestCase {
     }
 
         func testExample() {
-        snapshot("01LoginScreen")
+                    snapshot("01LoginScreen")
         // Use recording to get started writing UI tests.
                         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }

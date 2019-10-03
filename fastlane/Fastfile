@@ -20,16 +20,16 @@ platform :ios do
  
   lane :beta do
     increment_build_number
-    capture_screenshots
+    capture_screenshots    
     build_app(scheme: "HelloWorld", export_xcargs: "-allowProvisioningUpdates")
     upload_to_testflight
   end
 end
 
 lane :release do
-  increment_build_number
   capture_screenshots                  # generate new screenshots for the App Store
-  build_app(scheme: "HelloWorld", export_xcargs: "-allowProvisioningUpdates")
+  sync_code_signing(type: "appstore")  # see code signing guide for more information
+  build_app(scheme: "HelloWorld")
   upload_to_app_store                  # upload your app to App Store Connect
 end
 
