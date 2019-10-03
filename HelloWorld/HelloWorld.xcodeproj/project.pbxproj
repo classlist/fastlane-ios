@@ -14,6 +14,27 @@
 		34AE2F8E23423A1D009BB69A /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AE2F8D23423A1D009BB69A /* HelloWorldTests.swift */; };
 		34AE2F9923423A1E009BB69A /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AE2F9823423A1E009BB69A /* HelloWorldUITests.swift */; };
 		34E4704A2343BC9A00D798C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E470492343BC9A00D798C9 /* Assets.xcassets */; };
+		34F1C73C234612CA00B13FE4 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F1C73A234612CA00B13FE4 /* SnapshotHelper.swift */; };
+		34F1C73D234612CA00B13FE4 /* Snapfile in Resources */ = {isa = PBXBuildFile; fileRef = 34F1C73B234612CA00B13FE4 /* Snapfile */; };
+		34F1C755234617C600B13FE4 /* Preview.html in Resources */ = {isa = PBXBuildFile; fileRef = 34F1C73F234617C600B13FE4 /* Preview.html */; };
+		34F1C756234617C600B13FE4 /* iPhone 8-01LoginScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F1C742234617C600B13FE4 /* iPhone 8-01LoginScreen.png */; };
+		34F1C757234617C600B13FE4 /* iPhone 11 Pro-01LoginScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F1C743234617C600B13FE4 /* iPhone 11 Pro-01LoginScreen.png */; };
+		34F1C758234617C600B13FE4 /* iPad Pro (9.7-inch)-01LoginScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F1C744234617C600B13FE4 /* iPad Pro (9.7-inch)-01LoginScreen.png */; };
+		34F1C759234617C600B13FE4 /* iPhone 11-01LoginScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F1C745234617C600B13FE4 /* iPhone 11-01LoginScreen.png */; };
+		34F1C75A234617C600B13FE4 /* iPhone 11 Pro Max-01LoginScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F1C746234617C600B13FE4 /* iPhone 11 Pro Max-01LoginScreen.png */; };
+		34F1C75B234617C600B13FE4 /* iPad Pro (12.9-inch) (3rd generation)-01LoginScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F1C747234617C600B13FE4 /* iPad Pro (12.9-inch) (3rd generation)-01LoginScreen.png */; };
+		34F1C75C234617C600B13FE4 /* iPhone Xʀ-01LoginScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F1C748234617C600B13FE4 /* iPhone Xʀ-01LoginScreen.png */; };
+		34F1C75D234617C600B13FE4 /* iPhone Xs Max-01LoginScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F1C749234617C600B13FE4 /* iPhone Xs Max-01LoginScreen.png */; };
+		34F1C75E234617C600B13FE4 /* iPhone 8 Plus-01LoginScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F1C74A234617C600B13FE4 /* iPhone 8 Plus-01LoginScreen.png */; };
+		34F1C75F234617C600B13FE4 /* iPhone Xs-01LoginScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F1C74B234617C600B13FE4 /* iPhone Xs-01LoginScreen.png */; };
+		34F1C760234617C600B13FE4 /* iPad Pro (11-inch)-01LoginScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F1C74C234617C600B13FE4 /* iPad Pro (11-inch)-01LoginScreen.png */; };
+		34F1C761234617C600B13FE4 /* screenshots.html in Resources */ = {isa = PBXBuildFile; fileRef = 34F1C74D234617C600B13FE4 /* screenshots.html */; };
+		34F1C762234617C600B13FE4 /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = 34F1C74E234617C600B13FE4 /* Appfile */; };
+		34F1C763234617C600B13FE4 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F1C74F234617C600B13FE4 /* SnapshotHelper.swift */; };
+		34F1C764234617C600B13FE4 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 34F1C750234617C600B13FE4 /* Fastfile */; };
+		34F1C765234617C600B13FE4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 34F1C751234617C600B13FE4 /* README.md */; };
+		34F1C766234617C600B13FE4 /* report.xml in Resources */ = {isa = PBXBuildFile; fileRef = 34F1C753234617C600B13FE4 /* report.xml */; };
+		34F1C767234617C600B13FE4 /* Snapfile in Resources */ = {isa = PBXBuildFile; fileRef = 34F1C754234617C600B13FE4 /* Snapfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +69,27 @@
 		34AE2F9A23423A1E009BB69A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34AE2FA723423B47009BB69A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		34E470492343BC9A00D798C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
+		34F1C73A234612CA00B13FE4 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
+		34F1C73B234612CA00B13FE4 /* Snapfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snapfile; sourceTree = "<group>"; };
+		34F1C73F234617C600B13FE4 /* Preview.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Preview.html; sourceTree = "<group>"; };
+		34F1C742234617C600B13FE4 /* iPhone 8-01LoginScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8-01LoginScreen.png"; sourceTree = "<group>"; };
+		34F1C743234617C600B13FE4 /* iPhone 11 Pro-01LoginScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 11 Pro-01LoginScreen.png"; sourceTree = "<group>"; };
+		34F1C744234617C600B13FE4 /* iPad Pro (9.7-inch)-01LoginScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (9.7-inch)-01LoginScreen.png"; sourceTree = "<group>"; };
+		34F1C745234617C600B13FE4 /* iPhone 11-01LoginScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 11-01LoginScreen.png"; sourceTree = "<group>"; };
+		34F1C746234617C600B13FE4 /* iPhone 11 Pro Max-01LoginScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 11 Pro Max-01LoginScreen.png"; sourceTree = "<group>"; };
+		34F1C747234617C600B13FE4 /* iPad Pro (12.9-inch) (3rd generation)-01LoginScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (12.9-inch) (3rd generation)-01LoginScreen.png"; sourceTree = "<group>"; };
+		34F1C748234617C600B13FE4 /* iPhone Xʀ-01LoginScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone Xʀ-01LoginScreen.png"; sourceTree = "<group>"; };
+		34F1C749234617C600B13FE4 /* iPhone Xs Max-01LoginScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone Xs Max-01LoginScreen.png"; sourceTree = "<group>"; };
+		34F1C74A234617C600B13FE4 /* iPhone 8 Plus-01LoginScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8 Plus-01LoginScreen.png"; sourceTree = "<group>"; };
+		34F1C74B234617C600B13FE4 /* iPhone Xs-01LoginScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone Xs-01LoginScreen.png"; sourceTree = "<group>"; };
+		34F1C74C234617C600B13FE4 /* iPad Pro (11-inch)-01LoginScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (11-inch)-01LoginScreen.png"; sourceTree = "<group>"; };
+		34F1C74D234617C600B13FE4 /* screenshots.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = screenshots.html; sourceTree = "<group>"; };
+		34F1C74E234617C600B13FE4 /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
+		34F1C74F234617C600B13FE4 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
+		34F1C750234617C600B13FE4 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
+		34F1C751234617C600B13FE4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		34F1C753234617C600B13FE4 /* report.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.xml; sourceTree = "<group>"; };
+		34F1C754234617C600B13FE4 /* Snapfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snapfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +120,7 @@
 		34AE2F6C23423A1D009BB69A = {
 			isa = PBXGroup;
 			children = (
+				34F1C73E234617C600B13FE4 /* fastlane */,
 				34AE2F7723423A1D009BB69A /* HelloWorld */,
 				34AE2F8C23423A1D009BB69A /* HelloWorldTests */,
 				34AE2F9723423A1E009BB69A /* HelloWorldUITests */,
@@ -120,10 +163,70 @@
 		34AE2F9723423A1E009BB69A /* HelloWorldUITests */ = {
 			isa = PBXGroup;
 			children = (
+				34F1C739234612CA00B13FE4 /* fastlane */,
 				34AE2F9823423A1E009BB69A /* HelloWorldUITests.swift */,
 				34AE2F9A23423A1E009BB69A /* Info.plist */,
 			);
 			path = HelloWorldUITests;
+			sourceTree = "<group>";
+		};
+		34F1C739234612CA00B13FE4 /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				34F1C73A234612CA00B13FE4 /* SnapshotHelper.swift */,
+				34F1C73B234612CA00B13FE4 /* Snapfile */,
+			);
+			path = fastlane;
+			sourceTree = "<group>";
+		};
+		34F1C73E234617C600B13FE4 /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				34F1C73F234617C600B13FE4 /* Preview.html */,
+				34F1C740234617C600B13FE4 /* screenshots */,
+				34F1C74E234617C600B13FE4 /* Appfile */,
+				34F1C74F234617C600B13FE4 /* SnapshotHelper.swift */,
+				34F1C750234617C600B13FE4 /* Fastfile */,
+				34F1C751234617C600B13FE4 /* README.md */,
+				34F1C752234617C600B13FE4 /* metadata */,
+				34F1C753234617C600B13FE4 /* report.xml */,
+				34F1C754234617C600B13FE4 /* Snapfile */,
+			);
+			path = fastlane;
+			sourceTree = "<group>";
+		};
+		34F1C740234617C600B13FE4 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				34F1C741234617C600B13FE4 /* en-US */,
+				34F1C74D234617C600B13FE4 /* screenshots.html */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
+		34F1C741234617C600B13FE4 /* en-US */ = {
+			isa = PBXGroup;
+			children = (
+				34F1C742234617C600B13FE4 /* iPhone 8-01LoginScreen.png */,
+				34F1C743234617C600B13FE4 /* iPhone 11 Pro-01LoginScreen.png */,
+				34F1C744234617C600B13FE4 /* iPad Pro (9.7-inch)-01LoginScreen.png */,
+				34F1C745234617C600B13FE4 /* iPhone 11-01LoginScreen.png */,
+				34F1C746234617C600B13FE4 /* iPhone 11 Pro Max-01LoginScreen.png */,
+				34F1C747234617C600B13FE4 /* iPad Pro (12.9-inch) (3rd generation)-01LoginScreen.png */,
+				34F1C748234617C600B13FE4 /* iPhone Xʀ-01LoginScreen.png */,
+				34F1C749234617C600B13FE4 /* iPhone Xs Max-01LoginScreen.png */,
+				34F1C74A234617C600B13FE4 /* iPhone 8 Plus-01LoginScreen.png */,
+				34F1C74B234617C600B13FE4 /* iPhone Xs-01LoginScreen.png */,
+				34F1C74C234617C600B13FE4 /* iPad Pro (11-inch)-01LoginScreen.png */,
+			);
+			path = "en-US";
+			sourceTree = "<group>";
+		};
+		34F1C752234617C600B13FE4 /* metadata */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = metadata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +350,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34F1C75B234617C600B13FE4 /* iPad Pro (12.9-inch) (3rd generation)-01LoginScreen.png in Resources */,
+				34F1C75D234617C600B13FE4 /* iPhone Xs Max-01LoginScreen.png in Resources */,
+				34F1C759234617C600B13FE4 /* iPhone 11-01LoginScreen.png in Resources */,
+				34F1C73D234612CA00B13FE4 /* Snapfile in Resources */,
+				34F1C767234617C600B13FE4 /* Snapfile in Resources */,
+				34F1C75A234617C600B13FE4 /* iPhone 11 Pro Max-01LoginScreen.png in Resources */,
+				34F1C755234617C600B13FE4 /* Preview.html in Resources */,
+				34F1C764234617C600B13FE4 /* Fastfile in Resources */,
+				34F1C762234617C600B13FE4 /* Appfile in Resources */,
+				34F1C756234617C600B13FE4 /* iPhone 8-01LoginScreen.png in Resources */,
+				34F1C766234617C600B13FE4 /* report.xml in Resources */,
+				34F1C75C234617C600B13FE4 /* iPhone Xʀ-01LoginScreen.png in Resources */,
+				34F1C758234617C600B13FE4 /* iPad Pro (9.7-inch)-01LoginScreen.png in Resources */,
+				34F1C765234617C600B13FE4 /* README.md in Resources */,
+				34F1C75E234617C600B13FE4 /* iPhone 8 Plus-01LoginScreen.png in Resources */,
+				34F1C761234617C600B13FE4 /* screenshots.html in Resources */,
+				34F1C757234617C600B13FE4 /* iPhone 11 Pro-01LoginScreen.png in Resources */,
+				34F1C75F234617C600B13FE4 /* iPhone Xs-01LoginScreen.png in Resources */,
+				34F1C760234617C600B13FE4 /* iPad Pro (11-inch)-01LoginScreen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +397,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				34AE2F9923423A1E009BB69A /* HelloWorldUITests.swift in Sources */,
+				34F1C73C234612CA00B13FE4 /* SnapshotHelper.swift in Sources */,
+				34F1C763234617C600B13FE4 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,15 +558,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = Y6D428RC2M;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.classlist.parent2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,15 +580,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = Y6D428RC2M;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 12.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.classlist.parent2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -522,6 +654,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kajendran.HelloWorldUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = HelloWorld;
@@ -542,6 +675,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kajendran.HelloWorldUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = HelloWorld;

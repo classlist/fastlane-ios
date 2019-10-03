@@ -5,8 +5,9 @@
 //  Created by Kajendran Pulendran on 30.09.19.
 //  Copyright © 2019 Kajendran Pulendran. All rights reserved.
 //
+import XCTest;
+import Foundation;
 
-import XCTest
 
 class HelloWorldUITests: XCTestCase {
 
@@ -18,17 +19,21 @@ class HelloWorldUITests: XCTestCase {
 
         // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
         XCUIApplication().launch()
-
+    
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        let app = XCUIApplication()
+        setupSnapshot(app)
+        app.launch()
     }
 
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
+        func testExample() {
+        snapshot("01LoginScreen")
         // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+                        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
 }

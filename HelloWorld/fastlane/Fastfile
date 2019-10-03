@@ -17,8 +17,18 @@ default_platform(:ios)
 
 platform :ios do
   desc "Push a new beta build to TestFlight"
+ 
   lane :beta do
-    build_app(scheme: "HelloWorld")
+    increment_build_number
+    build_app(scheme: "HelloWorld", export_xcargs: "-allowProvisioningUpdates")
     upload_to_testflight
   end
+end
+
+lane :release do
+  increment_build_number
+  capture_screenshots                  # generate new screenshots for the App Store
+  sync_code_signing(type: "appstore")  # see code signing guide for more information
+  build_app(scheme: "HelloWorld")
+  upload_to_app_store                  # upload your app to App Store Connect
 end
